@@ -8,3 +8,6 @@ target/
  
 # Logs
 *.log
+
+extent-reports/
+testng-1.0.dtd
