@@ -40,7 +40,6 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.9.0</version>
-			<scope>test</scope>
 		</dependency>
 
 		<!-- Dependency Injection support (optional, for sharing state) -->
@@ -78,7 +77,7 @@
 		<dependency>
 			<groupId>com.lmax</groupId>
 			<artifactId>disruptor</artifactId>
-			<version>3.4.4</version>
+			<version>4.0.0</version>
 		</dependency>
 
 		<!-- ExtentReports Cucumber7 adapter -->
@@ -101,6 +100,14 @@
 			<artifactId>groovy-jsr223</artifactId>
 			<version>5.0.3</version>
 			<scope>test</scope>
+		</dependency>
+		<!-- Source:
+		https://mvnrepository.com/artifact/com.microsoft.playwright/playwright -->
+		<dependency>
+			<groupId>com.microsoft.playwright</groupId>
+			<artifactId>playwright</artifactId>
+			<version>1.57.0</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 	<build>
